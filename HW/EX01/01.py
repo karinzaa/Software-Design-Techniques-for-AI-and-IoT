@@ -83,7 +83,7 @@ def sort_and_print(args):
 # Main function
 def main(args):
     if len(args) < 2:
-        print("Usage!: python3 script.py [numbers]")
+        print("Usage!: python 01.py [numbers]")
         return
     n = atoi(args[1])
     print("Prime numbers           : ", end='')
