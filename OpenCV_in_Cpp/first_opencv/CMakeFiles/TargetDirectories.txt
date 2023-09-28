@@ -1,0 +1,3 @@
+/home/student2020/first_opencv/CMakeFiles/edit_cache.dir
+/home/student2020/first_opencv/CMakeFiles/rebuild_cache.dir
+/home/student2020/first_opencv/CMakeFiles/DisplayImage.dir
