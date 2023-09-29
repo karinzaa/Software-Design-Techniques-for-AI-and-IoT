@@ -37,7 +37,7 @@ def find_median(arr):
         return (val1 + val2) / 2
 
 if __name__ == "__main__":
-    numbers = [int(arg) for arg in sys.argv[1:]]  # Convert command line arguments to integers
+    numbers = [int(arg) for arg in sys.argv[1:]]
     if numbers:
         median = find_median(numbers)
         print(f"The median is: {median}")
