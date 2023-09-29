@@ -42,4 +42,4 @@ if __name__ == "__main__":
         median = find_median(numbers)
         print(f"The median is: {median}")
     else:
-        print("Please provide some numbers as command line arguments.")
+        print("Please provide numbers as command line arguments.")
