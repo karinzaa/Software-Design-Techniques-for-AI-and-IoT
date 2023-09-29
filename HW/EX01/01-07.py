@@ -1,4 +1,5 @@
 import math
+import sys
 
 # Function to check if a number is prime
 def is_prime(num):
@@ -97,5 +98,4 @@ def main(args):
 
 # Call main function
 if __name__ == '__main__':
-    import sys
     main(sys.argv)
