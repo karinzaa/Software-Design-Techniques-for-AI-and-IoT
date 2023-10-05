@@ -1,10 +1,7 @@
 import cv2
 import argparse
 
-
-#Usage python main_img.py --file Scenic009smaller.bmp #
-
-img_location = './Donki.jpg'
+img_location = './ZhongXinaSmaller.jpg'
 parser = argparse.ArgumentParser(description='input image name')
 parser.add_argument('--file', help="location of the image file")
 
