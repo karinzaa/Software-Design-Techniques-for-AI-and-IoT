@@ -1,5 +1,3 @@
-//	set path=C:\MinGW\bin;%path%
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,13 +5,11 @@
 #include "huff.h"
 #include "bmp.h"
 
-
 void abort_program(const char * msg)
 {
 	printf("abort: (%s) is FALSE!\n", msg);
 	exit(-1);
 }
-
 
 #define ENABLE_ASSERT
 
@@ -206,7 +202,6 @@ int BMPIMG_loadBMP4(BMPIMG * img, FILE * fp, int w, int h, int comp)
 	if (FERROR(fp)) rv = 1;
 	return rv;
 }
-
 
 
 /*******************************************/
